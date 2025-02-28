@@ -1,15 +1,6 @@
 import clsx from "clsx";
-// import Marker from "./Marker";
 import React from "react";
 
-interface Props {
-  icon: string;
-  children: string,
-  href: string,
-  containerClass: string,
-  onClick:React.MouseEventHandler<HTMLButtonElement>,
-  markerFill:string,
-}
 
 const Button = ({
   icon,
@@ -17,8 +8,8 @@ const Button = ({
   href,
   containerClass,
   onClick,
-  // markerFill,
-}:Props) => {
+  markerFill,
+}) => {
   const Inner = () => (
     <>
       <span
