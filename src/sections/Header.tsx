@@ -1,5 +1,5 @@
 import { useState } from "react";
-import utilData from "../utility/utilData";
+import headerData from "../utility/utilData"
 import Link from '../components/Link'
 
 const Header = () => {
@@ -22,9 +22,9 @@ const Header = () => {
             <nav className="max-lg:relative max-lg:z-2 max-lg:my-auto ">
               <ul className="flex max-lg:block max-lg:px-12">
                 <li className="relative flex flex-1 items-center justify-around max-lg:flex-col max-lg:items-start  ">
-                  <Link title={utilData[0][0].title} />
+                  <Link title="Features" />
                   <div className="size-1.5 rounded-full bg-[#3C52D9] max-lg:hidden"></div>
-                  <Link title={utilData[0][1].title} />
+                  <Link title="Pricing" />
                 </li>
 
                 <li className="relative flex flex-1 items-center justify-center">
@@ -38,10 +38,10 @@ const Header = () => {
                 </li>
 
                 <li className="relative flex flex-1 items-center justify-around max-lg:flex-col max-lg:items-start">
-                  <Link title={utilData[0][2].title} />
+                  <Link title="FAQ" />
 
                   <div className="size-1.5 rounded-full bg-[#3C52D9] max-lg:hidden"></div>
-                  <Link title={utilData[0][3].title} />
+                  <Link title="Download" />
                 </li>
               </ul>
             </nav>
