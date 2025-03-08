@@ -10,12 +10,12 @@ const Button = ({
   onClick,
   markerFill,
 }:{
-  icon: string;
-  children: React.ReactNode;
-  href: string;
-  containerClass: string;
-  onClick: () =>{};
-  markerFill: string ;
+  icon?: string;
+  children?: React.ReactNode;
+  href?: string;
+  containerClass?: string;
+  onClick?: () =>{};
+  markerFill?: string ;
 }) => {
   const Inner = () => (
     <>
