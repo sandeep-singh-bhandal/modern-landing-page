@@ -1,7 +1,7 @@
 import { useState } from "react";
 import clsx from "clsx";
 import CountUp from "react-countup";
-// import Button from "../components/Button.jsx";
+import Button from "../components/Button.jsx";
 import { plans } from "../utility/utilData.js";
 
 const Pricing = () => {
@@ -152,7 +152,7 @@ const Pricing = () => {
               </ul>
 
               <div className="mt-10 flex w-full justify-center">
-                {/* <Button icon={plan.icon} >Get Started</Button> */}
+                <Button icon={plan.icon} >Get Started</Button>
               </div>
 
               {index === 1 && (
