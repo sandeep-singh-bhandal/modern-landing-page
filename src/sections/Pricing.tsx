@@ -1,7 +1,7 @@
 import { useState } from "react";
 import clsx from "clsx";
 import CountUp from "react-countup";
-import Button from "../components/Button.jsx";
+// import Button from "../components/Button.jsx";
 import { plans } from "../utility/utilData.js";
 
 const Pricing = () => {
