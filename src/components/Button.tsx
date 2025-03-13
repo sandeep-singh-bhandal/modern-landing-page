@@ -9,19 +9,17 @@ const Button = ({
   containerClass,
   onClick,
   markerFill,
-}:{
+}: {
   icon?: string;
   children?: React.ReactNode;
   href?: string;
   containerClass?: string;
-  onClick?: () =>{};
-  markerFill?: string ;
+  onClick?: () => {};
+  markerFill?: string;
 }) => {
   const Inner = () => (
     <>
-      <span
-        className="relative flex items-center min-h-[60px] px-4 g4 rounded-2xl inner-before group-hover:before:opacity-100 overflow-hidden"
-      >
+      <span className="relative flex items-center min-h-[60px] px-4 g4 rounded-2xl inner-before group-hover:before:opacity-100 overflow-hidden">
         <span className="absolute -left-[1px]">
           <Marker fill={markerFill} />
         </span>
