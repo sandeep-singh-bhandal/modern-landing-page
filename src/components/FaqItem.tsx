@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import { useState } from "react";
-// import { SlideDown } from "react-slidedown";
-// import "react-slidedown/lib/slidedown.css";
+import { SlideDown } from "react-slidedown";
+import "react-slidedown/lib/slidedown.css";
 
 const FaqItem = ({
   item,
@@ -47,11 +47,11 @@ const FaqItem = ({
         </div>
       </div>
 
-      {/* <SlideDown>
+      <SlideDown>
         {activeId === item.id && (
           <div className="body-3 px-7 py-3.5">{item.answer}</div>
         )}
-      </SlideDown> */}
+      </SlideDown>
 
       <div
         className={clsx(
